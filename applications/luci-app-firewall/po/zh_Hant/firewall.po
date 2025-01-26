@@ -1,14 +1,14 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-11-29 19:50+0000\n"
-"Last-Translator: Yuan Lau <traverslombard@outlook.com>\n"
+"PO-Revision-Date: 2025-01-22 06:38+0000\n"
+"Last-Translator: ZW <roc_fe@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsfirewall/zh_Hant/>\n"
 "Language: zh_Hant\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.9-dev\n"
+"X-Generator: Weblate 5.10-dev\n"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:48
 msgid ""
@@ -299,7 +299,7 @@ msgstr "目標位址"
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:404
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:278
 msgid "Destination port"
-msgstr "目的通訊埠"
+msgstr "目標連接埠"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:396
 msgid "Destination zone"
@@ -356,7 +356,7 @@ msgstr "為此區域的IPv6出站流量開啟網路位址和端口轉換(NAT6或
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:211
 msgid "Enabled"
-msgstr "啟用"
+msgstr "已啟用"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:205
 msgid "Enables packet and byte count tracking for the set."
@@ -1446,10 +1446,6 @@ msgstr "ip[/cidr]<br />"
 msgid "ip[/cidr]<br />For use with Match datatypes: <code>*_ip</code>."
 msgstr "ip[/cidr]<br />用於匹配資料類型：<code>*_ip</code>。"
 
-#: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:70
-msgid "ipv4"
-msgstr "ipv4"
-
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/ipsets.js:133
 msgid "list"
 msgstr "清單"
@@ -1543,6 +1539,9 @@ msgstr "最多 65536 個條目。"
 #: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:339
 msgid "valid firewall mark"
 msgstr "有效正確的防火牆標記"
+
+#~ msgid "ipv4"
+#~ msgstr "ipv4"
 
 #~ msgid "Experimental feature. Not fully compatible with QoS/SQM."
 #~ msgstr "實驗性功能。與QoS/SQM不完全相容。"
