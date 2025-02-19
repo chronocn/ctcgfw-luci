@@ -173,7 +173,7 @@ return view.extend({
 				}
 				var domains = document.getElementById('domains');
 				if (domains && info) {
-					domains.textContent = parseInt(info.blocked_domains, 10).toLocaleString() || '-';
+					domains.textContent = info.blocked_domains || '-';
 				}
 				var sources = document.getElementById('sources');
 				var src_array = [];
@@ -421,6 +421,7 @@ return view.extend({
 		o.value('dnsmasq', _('dnsmasq (/tmp/dnsmasq.d)'));
 		o.value('unbound', _('unbound (/var/lib/unbound)'));
 		o.value('named', _('bind (/var/lib/bind)'));
+		o.value('smartdns', _('smartdns (/tmp/smartdns)'));
 		o.value('kresd', _('kresd (/etc/kresd)'));
 		o.value('raw', _('raw (/tmp)'));
 		o.optional = true;
